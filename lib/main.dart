@@ -12,7 +12,7 @@ class BmiAiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'BMI AI',
+      title: 'BMI Calculator',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color(0xFF0A0E21),
@@ -304,7 +304,7 @@ class _BMICalculatorState extends State<BMICalculator> with SingleTickerProvider
               child: const Icon(Icons.psychology, size: 28, color: Colors.white),
             ),
             const SizedBox(width: 12),
-            const Text('BMI AI', style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, letterSpacing: 0.5)),
+            const Text('BMI Calculator', style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, letterSpacing: 0.5)),
           ],
         ),
         const SizedBox(height: 8),
